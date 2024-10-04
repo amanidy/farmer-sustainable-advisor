@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sustainable_farming_advisor/pages/weather_updates_page.dart';
 import 'package:sustainable_farming_advisor/pages/market_place_page.dart';
-import 'package:sustainable_farming_advisor/pages/community_forum_page.dart';
+import 'package:sustainable_farming_advisor/pages/forum_page.dart';
 import 'package:sustainable_farming_advisor/pages/tutorials_page.dart';
 
 class HomePage extends StatelessWidget {
@@ -37,7 +37,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const CommunityForumPage()));
+                        builder: (context) => const ForumPage()));
               },
               child: const Text("Community Forum ")),
           ElevatedButton(
