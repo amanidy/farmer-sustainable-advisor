@@ -29,7 +29,7 @@ class HomePage extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const MarketPlacePage()));
+                        builder: (context) => const MarketplacePage()));
               },
               child: const Text("Market Place ")),
           ElevatedButton(
