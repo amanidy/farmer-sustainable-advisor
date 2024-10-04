@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sustainable_farming_advisor/pages/home_page.dart';
+import 'package:dotenv/dotenv.dart' as dotenv;
 
 void main() {
+  dotenv.load();
   runApp(const AgrisenseApp());
 }
 
